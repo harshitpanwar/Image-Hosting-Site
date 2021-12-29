@@ -19,18 +19,18 @@ const App = () => {
           <img className={classes.image} src={icon} alt="image hosting icon" height="60px" width="60px"/>
               <Typography className={classes.heading} variant="h3" align="center">Image Hosting Site</Typography>
           </AppBar> */}
-        <Grow in>
+        {/* <Grow in>
             <Container>
                 <Grid container justify="space-between" alignItems="stretch" spacing={3}>
-                    <Grid item xs={12} sm={7}>
+                    <Grid item xs={12} sm={7}> */}
                         <Posts />
-                    </Grid>
+                    {/* </Grid>
                     <Grid item xs={12} sm={4}>
                         <Form />
                     </Grid>
                 </Grid>
             </Container>
-        </Grow>
+        </Grow> */}
       </div>  
     );
 }

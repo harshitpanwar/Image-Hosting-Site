@@ -5,7 +5,7 @@ const Post = () => {
     const classes = useStyles();
     return (
         <h1 className={classes.title}>
-            The uploaded pictures is shown here...
+            This is a Post
         </h1>
     )
 }
