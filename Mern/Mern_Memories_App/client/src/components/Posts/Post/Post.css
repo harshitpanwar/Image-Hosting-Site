@@ -1,0 +1,23 @@
+.Postcard{
+    padding-left: 5vh;
+    padding-right: 5vh;
+}
+
+
+.Card{
+    align-items: center;
+    padding-inline: 20px;
+    width: fit-content;
+    border-left-width: 20px;
+    border-radius: 25px;
+    border: 1px solid #000;
+    align-items: center;
+    justify-content: center;
+}
+
+.Photo{
+    justify-content: center;
+    align-items: center;
+    width: 40vh;
+    height: auto;
+}

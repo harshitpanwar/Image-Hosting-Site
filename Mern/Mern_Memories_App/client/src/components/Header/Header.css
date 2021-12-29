@@ -1,5 +1,4 @@
 .Header{
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -48,6 +47,6 @@
 .button:hover{
     cursor: pointer;
     background-color: #4b99c4;
-    border: 1px solid #2f486e;
+    border: #2f486e;
 
 }
