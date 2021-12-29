@@ -10,6 +10,7 @@ const Posts = () => {
             Posts
         </h1>
         <Post/>
+
         </>
     );
 }
