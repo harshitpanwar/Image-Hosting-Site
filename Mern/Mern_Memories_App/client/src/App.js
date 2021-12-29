@@ -5,15 +5,20 @@ import Posts from './components/Posts/Posts';
 import Form from './components/Form/Form';
 import icon from './images/icon.png';
 import useStyles from './styles';
+import Header from "./components/Header/Header";
+import './App.css'
 
 const App = () => {
     const classes = useStyles();
     return (
-      <Container maxwidth="lg">
-          <AppBar className={classes.appBar} position="static" color="inherit">
+      <div className="container" maxwidth="lg">
+
+          <Header/>
+
+          {/* <AppBar className={classes.appBar} position="static" color="inherit">
           <img className={classes.image} src={icon} alt="image hosting icon" height="60px" width="60px"/>
               <Typography className={classes.heading} variant="h3" align="center">Image Hosting Site</Typography>
-          </AppBar>
+          </AppBar> */}
         <Grow in>
             <Container>
                 <Grid container justify="space-between" alignItems="stretch" spacing={3}>
@@ -26,7 +31,7 @@ const App = () => {
                 </Grid>
             </Container>
         </Grow>
-      </Container>  
+      </div>  
     );
 }
 
