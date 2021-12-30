@@ -1,6 +1,7 @@
 import React from 'react'
 import useStyles from './styles';
 import './Post.css'
+import { Grid } from '@material-ui/core';
 
 const Post = () => {
     const classes = useStyles();
