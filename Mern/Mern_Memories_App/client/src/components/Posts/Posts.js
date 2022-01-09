@@ -10,13 +10,17 @@ const Posts = () => {
             <h1 className={classes.title}>
                 Posts
             </h1>
-            <div className='rows'>
-                <div className='columns'>  
+            <div className='container'>
+                  
                     <div className='PostCard'><Post/></div>
                     <div className='PostCard'><Post/></div>
                     <div className='PostCard'><Post/></div>
                     <div className='PostCard'><Post/></div>
-                </div>
+                    <div className='PostCard'><Post/></div>
+                    <div className='PostCard'><Post/></div>
+                    <div className='PostCard'><Post/></div>
+                    <div className='PostCard'><Post/></div>
+                
             </div>  
         </div>
     );

@@ -23,7 +23,7 @@ function Header() {
 
             <div className='upload_button'>
                 <Link to='/upload'>
-                    <button className='button'> UPLOAD </button>
+                    <p className='button'> Upload</p> 
                 </Link>
                 
             </div>
