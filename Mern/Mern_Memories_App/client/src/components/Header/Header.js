@@ -16,10 +16,8 @@ function Header() {
             
 
             <div className='upload_button'>
-                <button className='button'> Upload Image </button>
+                <button className='button'> UPLOAD </button>
             </div>
-
-
         </div>
     )
 }

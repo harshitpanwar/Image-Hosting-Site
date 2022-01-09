@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+
 .Postcard{
     padding-left: 5vh;
     padding-right: 5vh;
@@ -20,4 +22,9 @@
     align-items: center;
     width: 40vh;
     height: auto;
+}
+
+p{
+    color: #ffffff;
+    font-family: 'ABeeZee', sans-serif;
 }

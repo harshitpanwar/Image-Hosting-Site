@@ -13,5 +13,6 @@ export default makeStyles((theme) => ({
   },
   title: {
     padding: '0 16px',
+    color: 'white'
   },
 }));
