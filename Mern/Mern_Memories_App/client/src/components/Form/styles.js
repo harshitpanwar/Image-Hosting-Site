@@ -12,7 +12,8 @@ export default makeStyles((theme) => ({
   form: {
     display: 'flex',
     flexWrap: 'wrap',
-    justifyContent: 'center',
+    justifyContent: 'left',
+    paddingLeft: '10px',
   },
   fileInput: {
     width: '97%',
@@ -21,4 +22,10 @@ export default makeStyles((theme) => ({
   buttonSubmit: {
     marginBottom: 10,
   },
+  Input:{
+    paddingLeft: '10px',
+  },
+  box:{
+    width: '200px',
+  }
 }));
