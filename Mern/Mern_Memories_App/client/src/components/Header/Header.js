@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function Header() {
     return (
         <div className='Header'>
-            <Link to='/'>
+            <Link className="link" to='/'>
 
             <div className='pair'>
                 <div className='icon'>
@@ -22,7 +22,7 @@ function Header() {
             
 
             <div className='upload_button'>
-                <Link to='/upload'>
+                <Link className="link" to='/upload'>
                     <p className='button'> Upload</p> 
                 </Link>
                 

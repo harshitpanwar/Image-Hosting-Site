@@ -32,6 +32,10 @@
     color: white;
 }
 
+.link{
+    text-decoration: none;
+}
+
 .upload_button{
     margin-right: 30px;
 }
